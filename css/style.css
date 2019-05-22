@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan|Raleway&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.todo {
+	margin-top: 2rem;
+	padding: 2rem 4rem;
+	border-radius: 8px;
+	background: #28292a;
+	width: 90%;
+	min-width: 480px;
+	height: 768px;
+	color: white;
+	overflow: scroll;
+}
+
+.todo__header {
+	padding: 1rem 0;
+}
+
+.todo__title {
+	margin: 1rem;
+	text-align: center;
+	font-family: Kodchasan;
+}
+
+.todo__input {
+	width: 100%;
+	border-radius: 8px;
+	padding: 1rem 1.2rem;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.todo__item {
+	list-style-type: none;
+	padding: 1rem 1.2rem;
+	border-bottom: 2px solid gold;
+	opacity: 1;
+	-webkit-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.todo__item:hover {
+	cursor: default;
+}
+
+.done {
+	text-decoration: line-through;
+	color: grey;
+	border-bottom: 2px solid rgb(65, 52, 32);
+}
+
+.deleted {
+	opacity: 0;
+}
+
+.deleteButton {
+	color: white;
+	float: right;
+}
