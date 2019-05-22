@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/rhannie8/pen/rgGZvy.
-
+A simple to-do list using HTML, CSS, and JS.
  
